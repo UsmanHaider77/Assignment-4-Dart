@@ -1,8 +1,13 @@
 
- void main(){
-int num = 5;
-for (var i = 1; i <= 10; i++) {
-   print(" $num x $i = ${num*i} ");
-}
+void main(){
 
- }
+multiplicationTable(5);
+
+}
+  //Function Used
+multiplicationTable(int num){
+  print("The table of ${num} is");
+  for(int a =1; a<= 10; a++){
+  print("${num} x ${a} = ${num*a}");
+}
+}
